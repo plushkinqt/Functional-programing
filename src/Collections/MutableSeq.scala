@@ -18,7 +18,7 @@ object MutableSeq {
   coll3.enqueue(3)
   coll3.dequeue()
 
-  val coll4 = new mutable.PriorityQueue()
+  val coll4 = new mutable.PriorityQueue[Double]()
 
   //Both are deprecated. RIP
   val coll5 = new mutable.LinkedList()
